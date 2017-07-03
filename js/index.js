@@ -2,17 +2,7 @@
  * Created by 12159 on 2017/6/8.
  */
 $(function () {
-    var ul = $(".hw_header .hw_menu");
-    var lis = ul.find("li");
-    var allWidth = 0;
-    lis.each(function (index,value) {
-        //console.log(value);获得每一个li
-        allWidth+=$(value).innerWidth();
-    });
-    ul.width(allWidth);
-
-
-
+   
     //轮播图
      var items = $(".carousel-inner .item")
 
